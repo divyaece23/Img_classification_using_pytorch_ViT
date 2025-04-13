@@ -7,11 +7,13 @@ This dataset contains digital knee X-ray images categorized by severity levels r
 
 🔁 Image Augmentation & DataLoader
 
+
 Images are augmented using torchvision.transforms (resize, normalize, etc.).
 
 Augmented images are then fed into a PyTorch DataLoader for efficient batching during training and evaluation.
 
 🧠 Transfer Learning
+
 
 This project uses transfer learning with the Vision Transformer (ViT) model from 🤗 Hugging Face Transformers.
 
